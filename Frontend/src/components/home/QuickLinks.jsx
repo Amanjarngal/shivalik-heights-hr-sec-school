@@ -99,7 +99,7 @@ const QuickLinks = () => {
             Quick Access
           </span>
           <h2 className="text-4xl md:text-5xl font-black text-gray-900 mb-3">
-            Explore <span className="text-[#a81d1d]">NPHSS</span>
+            Explore <span className="text-[#a81d1d]">SHHSS</span>
           </h2>
           <div className="w-16 h-1.5 bg-[#a81d1d] mx-auto rounded-full" />
         </motion.div>

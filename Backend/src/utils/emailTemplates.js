@@ -8,13 +8,13 @@ export const parentConfirmationTemplate = (data) => {
     return `
         <div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto; border: 1px solid #eee; border-radius: 10px; overflow: hidden;">
             <div style="background-color: #004a99; color: white; padding: 20px; text-align: center;">
-                <h1 style="margin: 0;">NPHSS</h1>
-                <p style="margin: 5px 0 0;">New Public Higher Secondary Schooll</p>
+                <h1 style="margin: 0;">SHHSS</h1>
+                <p style="margin: 5px 0 0;">Shivalik Heights Higher Secondary School</p>
             </div>
             <div style="padding: 30px;">
                 <h2 style="color: #004a99; margin-top: 0;">Admission Application Received</h2>
                 <p>Dear <b>${parentName}</b>,</p>
-                <p>Thank you for choosing NPHSS for your child's education. We have successfully received the online admission application for:</p>
+                <p>Thank you for choosing SHHSS for your child's education. We have successfully received the online admission application for:</p>
                 
                 <div style="background-color: #f9f9f9; padding: 20px; border-radius: 5px; margin: 20px 0;">
                     <p style="margin: 5px 0;"><b>Student Name:</b> ${studentName}</p>
@@ -28,10 +28,10 @@ export const parentConfirmationTemplate = (data) => {
                 
                 <p style="margin-top: 30px;">Best Regards,<br>
                 <b>The Admission Desk</b><br>
-                New Public Higher Secondary School</p>
+                Shivalik Heights Higher Secondary School</p>
             </div>
             <div style="background-color: #f4f4f4; padding: 15px; text-align: center; font-size: 12px; color: #777;">
-                <p>&copy; ${year} NPHSS. All Rights Reserved.</p>
+                <p>&copy; ${year} SHHSS. All Rights Reserved.</p>
             </div>
         </div>
     `;
@@ -83,8 +83,8 @@ export const enquiryConfirmationTemplate = (data) => {
     return `
         <div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto; border: 1px solid #eee; border-radius: 10px; overflow: hidden;">
             <div style="background-color: #004a99; color: white; padding: 20px; text-align: center;">
-                <h1 style="margin: 0;">NPHSS</h1>
-                <p style="margin: 5px 0 0;">New Public Higher Secondary School</p>
+                <h1 style="margin: 0;">SHHSS</h1>
+                <p style="margin: 5px 0 0;">Shivalik Heights Higher Secondary School</p>
             </div>
             <div style="padding: 30px;">
                 <h2 style="color: #004a99; margin-top: 0;">We've Received Your Enquiry</h2>
@@ -99,10 +99,10 @@ export const enquiryConfirmationTemplate = (data) => {
                 
                 <p style="margin-top: 30px;">Best Regards,<br>
                 <b>The School Office</b><br>
-                New Public Higher Secondary School</p>
+                Shivalik Heights Higher Secondary School</p>
             </div>
             <div style="background-color: #f4f4f4; padding: 15px; text-align: center; font-size: 12px; color: #777;">
-                <p>&copy; ${year} NPHSS. All Rights Reserved.</p>
+                <p>&copy; ${year} SHHSS. All Rights Reserved.</p>
             </div>
         </div>
     `;

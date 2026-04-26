@@ -52,7 +52,7 @@ const Gallery = () => {
             transition={{ delay: 0.1 }}
             className="text-red-100 text-lg md:text-xl max-w-2xl mx-auto mt-6"
           >
-            Explore the vibrant life at NPHSS. From academic excellence to cultural fests and sporting events, take a glimpse into our world.
+            Explore the vibrant life at SHHSS. From academic excellence to cultural fests and sporting events, take a glimpse into our world.
           </motion.p>
         </div>
       </section>

@@ -85,7 +85,7 @@ const OnlineAdmissionForm = () => {
           {success ? (
             <div className="bg-green-50 border border-green-200 text-green-800 p-8 rounded-2xl text-center">
               <h3 className="text-2xl font-bold mb-4">Application Submitted Successfully!</h3>
-              <p className="mb-6 text-green-700">Thank you for choosing NPHSS. A confirmation email has been sent to your email address, and our admissions office will get in touch with you shortly.</p>
+              <p className="mb-6 text-green-700">Thank you for choosing SHHSS. A confirmation email has been sent to your email address, and our admissions office will get in touch with you shortly.</p>
               <button onClick={() => setSuccess(false)} className="bg-green-600 text-white px-6 py-2 rounded-xl font-bold hover:bg-green-700 transition">Submit another application</button>
             </div>
           ) : (

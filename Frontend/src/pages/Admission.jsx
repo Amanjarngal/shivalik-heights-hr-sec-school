@@ -28,7 +28,7 @@ const Admission = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-xl text-red-100 max-w-3xl mx-auto"
           >
-            Join NPHSS and give your child the foundation they need for a bright and successful future.
+            Join SHHSS and give your child the foundation they need for a bright and successful future.
           </motion.p>
           <motion.div
             initial={{ opacity: 0 }}

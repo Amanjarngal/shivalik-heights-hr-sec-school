@@ -39,7 +39,7 @@ const submitAdmission = async (req, res) => {
         try {
             await sendEmail({
                 email: email,
-                subject: `Admission Received: ${studentName} - NPHSS`,
+                subject: `Admission Received: ${studentName} - SHHSS`,
                 message: parentMessage,
             });
         } catch (emailError) {
@@ -138,7 +138,7 @@ const testEmail = async (req, res) => {
         console.log("Nodemailer: Starting manual test...");
         await sendEmail({
             email: process.env.ADMIN_EMAIL,
-            subject: 'NPHSS Email Service Test',
+            subject: 'SHHSS Email Service Test',
             message: '<h1>Test Successful</h1><p>Your email service is configured correctly.</p>',
         });
         res.json({ success: true, message: 'Test email sent successfully!' });

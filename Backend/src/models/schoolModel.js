@@ -4,27 +4,27 @@ const schoolSchema = new mongoose.Schema({
   schoolName: {
     type: String,
     required: true,
-    default: 'New Public Higher Secondary School'
+    default: 'Shivalik Heights Higher Secondary School'
   },
   shortName: {
     type: String,
     required: true,
-    default: 'NPHSS'
+    default: 'SHHSS'
   },
   address: {
     type: String,
     required: true,
-    default: 'Sunderbani, Rajouri — J&K'
+    default: 'Hiranagar., Kathua — J&K'
   },
   phone: {
     type: String,
     required: true,
-    default: '+977 1-2345678'
+    default: '+91 95968 14606'
   },
   email: {
     type: String,
     required: true,
-    default: 'info@nphs.edu.np'
+    default: 'info@shivalikheights.edu.in'
   },
   workingHours: {
     type: String,
@@ -85,7 +85,7 @@ const schoolSchema = new mongoose.Schema({
   },
   chairmanMessage: {
     type: String,
-    default: '"At NPHSS, we believe that education is not just about books, but about building a foundation for life. Our vision is to create a community where every student feels valued and empowered. We are committed to providing the infrastructure and guidance necessary for our students to compete at the highest levels, while remaining rooted in our cultural values."'
+    default: '"At SHHSS, we believe that education is not just about books, but about building a foundation for life. Our vision is to create a community where every student feels valued and empowered. We are committed to providing the infrastructure and guidance necessary for our students to compete at the highest levels, while remaining rooted in our cultural values."'
   },
   chairmanImage: {
     type: String,
@@ -97,7 +97,7 @@ const schoolSchema = new mongoose.Schema({
   },
   principalMessage: {
     type: String,
-    default: '"Our school is a place of infinite possibilities. Every day, I see young minds blooming with curiosity and ambition. We strive to provide an environment that is both academically rigorous and emotionally supportive. Our faculty is dedicated to mentorship, ensuring that every NPHSS graduate is a well-rounded individual ready to contribute meaningfully to society."'
+    default: '"Our school is a place of infinite possibilities. Every day, I see young minds blooming with curiosity and ambition. We strive to provide an environment that is both academically rigorous and emotionally supportive. Our faculty is dedicated to mentorship, ensuring that every SHHSS graduate is a well-rounded individual ready to contribute meaningfully to society."'
   },
   principalImage: {
     type: String,

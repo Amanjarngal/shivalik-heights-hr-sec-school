@@ -62,7 +62,7 @@ const Announcements = () => {
             transition={{ delay: 0.1 }}
             className="text-red-100 text-lg max-w-2xl mx-auto mt-4"
           >
-            Stay updated with the latest news, events, and important circulars from New Public Higher Secondary School.
+            Stay updated with the latest news, events, and important circulars from Shivalik Heights Higher Secondary School.
           </motion.p>
         </div>
       </section>

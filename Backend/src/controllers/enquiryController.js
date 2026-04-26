@@ -27,7 +27,7 @@ const submitEnquiry = async (req, res) => {
         try {
             await sendEmail({
                 email: parentEmail,
-                subject: `Enquiry Received: ${subject} - NPHSS`,
+                subject: `Enquiry Received: ${subject} - SHHSS`,
                 message: parentHtml,
             });
         } catch (emailError) {

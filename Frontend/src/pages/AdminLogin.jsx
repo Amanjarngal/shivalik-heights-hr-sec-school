@@ -87,7 +87,7 @@ const AdminLogin = () => {
         </form>
         
         <div className="px-8 pb-8 text-center text-xs text-gray-400">
-          <p>© {new Date().getFullYear()} NPHSS. Unauthorized access is prohibited.</p>
+          <p>© {new Date().getFullYear()} SHHSS. Unauthorized access is prohibited.</p>
         </div>
       </div>
     </div>

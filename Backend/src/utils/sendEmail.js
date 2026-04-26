@@ -29,7 +29,7 @@ const sendEmail = async (options) => {
         
         const client = getResendClient();
         const data = await client.emails.send({
-            from: 'NPHSS Admission <onboarding@resend.dev>', // Update with verified domain in production
+            from: 'SHHSS Admission <onboarding@resend.dev>', // Update with verified domain in production
             to: recipient,
             subject: options.subject,
             html: options.message,

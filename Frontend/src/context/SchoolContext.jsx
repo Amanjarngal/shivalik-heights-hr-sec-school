@@ -9,11 +9,11 @@ export const useSchool = () => {
 
 export const SchoolProvider = ({ children }) => {
   const [schoolSettings, setSchoolSettings] = useState({
-    schoolName: 'New Public Higher Secondary School',
-    shortName: 'NPHSS',
-    address: 'Sunderbani, Rajouri, J&K - 185153',
+    schoolName: 'Shivalik Heights Higher Secondary School',
+    shortName: 'SHHSS',
+    address: 'Hiranagar., Kathua — J&K',
     phone: '+91 95968 14606',
-    email: 'info@nphss.edu.in',
+    email: 'info@shivalikheights.edu.in',
     workingHours: 'Mon - Sat, 9am - 4pm',
     facebookUrl: '#',
     twitterUrl: '#',
