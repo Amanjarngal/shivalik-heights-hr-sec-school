@@ -20,6 +20,7 @@ const allowedOrigins = [
     process.env.FRONTEND_URL,
     "http://localhost:5173",
     "https://npssdemo.axonovatechnologies.com",
+    "https://shivalik-heights-hr-sec-school-demo.vercel.app",
 ];
 
 app.use(cors({
