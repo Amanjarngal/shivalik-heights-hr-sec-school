@@ -69,7 +69,7 @@ const schoolSchema = new mongoose.Schema({
   }],
   admissionImage: {
     type: String,
-    default: 'https://scontent.fdel11-4.fna.fbcdn.net/v/t39.30808-6/634043602_1485585333571954_1684549502855741659_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=13d280&_nc_ohc=ucilnxlStYoQ7kNvwGRXiAa&_nc_oc=Adkk2_MZP9FT7OCEdGRduUrEIg_J4Xdjp0MuiY2zoUVgPL2SPoQbmumEJ7oIlVI1dqU&_nc_zt=23&_nc_ht=scontent.fdel11-4.fna&_nc_gid=YSwy2oo0mUVPyx81_5Q77w&_nc_ss=8&oh=00_AfwH3RP_UXRnVcJ2CndeyJvlnjN2pFOf7Tia586XNyKFlg&oe=69B7AA2A'
+    default: 'https://images.unsplash.com/photo-1523050853063-bd388f9f79b5?q=80&w=2000&auto=format&fit=crop'
   },
   admissionLastDate: {
     type: String,

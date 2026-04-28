@@ -17,11 +17,11 @@ connectDB(); // connect database
 const app = express();
 
 const allowedOrigins = [
-    process.env.FRONTEND_URL,
+    process.env.FRONTEND_URL?.trim(),
     "http://localhost:5173",
     "https://npssdemo.axonovatechnologies.com",
     "https://shivalik-heights-hr-sec-school-demo.vercel.app",
-];
+].filter(Boolean);
 
 app.use(cors({
     origin: function (origin, callback) {
@@ -55,10 +55,29 @@ app.get("/", (req, res) => {
     res.send("API is running...");
 });
 
+app.get("/health", (req, res) => {
+    res.status(200).json({ 
+        status: "UP", 
+        timestamp: new Date().toISOString(),
+        db: mongoose.connection.readyState === 1 ? "Connected" : "Disconnected"
+    });
+});
+
 const PORT = process.env.PORT || 5000;
 
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
     console.log(`Server running in ${process.env.NODE_ENV} mode on port ${PORT}`);
+});
+
+// Error Handler
+app.use((err, req, res, next) => {
+    const statusCode = res.statusCode === 200 ? 500 : res.statusCode;
+    console.error(`[Error] ${err.message}`);
+    res.status(statusCode).json({
+        success: false,
+        message: err.message,
+        stack: process.env.NODE_ENV === 'production' ? null : err.stack,
+    });
 });
 
 // hot reload 1
